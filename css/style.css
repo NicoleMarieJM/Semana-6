@@ -1,0 +1,107 @@
+body {
+	background-color: lemonchiffon;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#horizontal-list li {
+		display: inline;
+	}
+
+#horizontal-list {
+	list-style: none;
+	margin-top: 1%;
+	padding: 1%;
+	background-color: khaki;
+	border-radius: 1%;
+	margin-left: 5%;
+	margin-right: 3%;
+	}
+
+.button1, .button2, .button3, .button4  {
+    background-color: gold;
+    border: none;
+    color: white;
+    padding: 1% 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+}
+
+a:hover {
+    background-color: goldenrod;
+}
+
+header img {
+	margin-top: 5%;
+}
+
+header {
+	border: 1% solid #000;
+	background:url(../img/elizabeth.jpg) no-repeat;
+	background-size: cover;
+	height: -5%;
+	border: 0% solid;
+	border-radius: 1%;
+	margin-left: 5%;
+	margin-right: 3%;
+}
+
+#p1 {
+	float: left;
+    width: 30%;
+    margin-left: 11%;
+    padding: 4%;
+    
+    height: 150%;
+    margin-top: 1%;
+    background-color: white;
+    border-radius: 2%;
+}
+
+#p2 {
+	float: left;
+    width: 30%;
+    margin-right: 3%;
+    padding: 4%;
+    margin-left: 5%;
+    height: 150%;
+    margin-top: 1%;
+    background-color: white;
+    border-radius: 2%;
+}
+
+footer {
+	border-radius: 2%;
+	margin-top: 29%;
+	margin-left: 5%;
+	background-color: khaki;
+	padding: 0.5% 3%;
+	margin-right: 3%;
+}
+
+@media screen and (max-width:75%) {
+	body {
+		width: 375px;
+		height: 766px;
+	}
+}
+/*768px*/
+@media screen and (max-width:85%) {
+	body {
+		width: 360px;
+		height: 640px;
+	}
+} 
+@media screen and (max-width:100%) {
+	body {
+		width: 320px;
+		height: 568px;
+	}
+} 
+@media screen and (max-width:50%) {
+	body {
+		width: 768px;
+		height: 1024px;
+	}
+} 
